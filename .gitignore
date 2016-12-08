@@ -1,0 +1,9 @@
+# MAC OS
+**/.DS_Store
+
+# Plug
+plugged
+
+# Vim
+**/*.swp
+**/.netrwhist
