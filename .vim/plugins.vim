@@ -26,3 +26,9 @@ Plug 'valloric/youcompleteme'
 
 " Find file
 Plug 'kien/ctrlp.vim'
+
+" Web Dev
+Plug 'tpope/vim-surround'
+
+" Comment
+Plug 'tomtom/tcomment_vim'
