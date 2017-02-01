@@ -1,3 +1,3 @@
-# My vim javascript enviroment.
+# My Terminal enviroment.
 
-This configuration is inspired and referenced from [Olical's vim configuration style](https://github.com/Olical)
+Vim's configuration is inspired and referenced from [Olical's vim configuration style](https://github.com/Olical)
