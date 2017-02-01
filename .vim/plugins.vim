@@ -32,3 +32,7 @@ Plug 'tpope/vim-surround'
 
 " Comment
 Plug 'tomtom/tcomment_vim'
+
+" Theme
+Plug 'itchyny/lightline.vim'
+Plug 'sonph/onehalf'

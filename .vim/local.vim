@@ -2,8 +2,11 @@ set number
 
 set t_Co=256
 syntax on
-colorscheme solarized
-set background=dark
+colorscheme onehalflight
+let g:airline_theme='onehalfdark'
+" set background=dark
+
+set mouse-=a
 
 set autoindent
 set paste!
@@ -21,5 +24,4 @@ set expandtab           " Insert spaces when TAB is pressed.
 set tabstop=2           " Render TABs using this many spaces.
 set shiftwidth=2        " Indentation amount for < and > commands.
 
-" Use ; for commands.
-" nnoremap ; :
+source ~/.vim/shortcut.vim
