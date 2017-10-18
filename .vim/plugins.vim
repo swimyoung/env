@@ -9,7 +9,7 @@ Plug 'ternjs/tern_for_vim'
 Plug 'mxw/vim-jsx'
 
 " Folder
-Plug 'The-NERD-Tree'
+Plug 'scrooloose/nerdtree'
 
 " Syntanx
 Plug 'scrooloose/syntastic'
@@ -22,7 +22,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'altercation/vim-colors-solarized'
 
 " Auto complete
-Plug 'valloric/youcompleteme'
+" Plug 'valloric/youcompleteme'
 
 " Find file
 Plug 'kien/ctrlp.vim'
@@ -35,4 +35,5 @@ Plug 'tomtom/tcomment_vim'
 
 " Theme
 Plug 'itchyny/lightline.vim'
-Plug 'sonph/onehalf'
+" Plug 'sonph/onehalf'
+Plug 'altercation/solarized'
