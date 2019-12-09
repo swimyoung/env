@@ -1,33 +1,87 @@
 {
-    "files.associations": {
-        "*.vue": "vue"
-    },
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/bower_components": true,
-        ".idea/**": true,
-    },
-    "workbench.iconTheme": "vs-minimal",
-    "workbench.colorTheme": "Default Light+",
-    "workbench.startupEditor": "newUntitledFile",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "diffEditor.renderSideBySide": false,
-    "extensions.ignoreRecommendations": false,
-    "editor.tabSize": 2,
-    "editor.rulers": [
-        80,
-        120,
-        160
-    ],
-    "javascript.validate.enable": false,
-    "editor.wordWrap": "on",
-    "editor.renderControlCharacters": true,
-    "editor.lineNumbers": "off",
-    "editor.renderWhitespace": "all",
-    "editor.renderIndentGuides": true,
-    "editor.minimap.enabled": false,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 16,
-    "window.zoomLevel": 0,
+  "window.zoomLevel": 0,
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "search.exclude": {
+    "**/bundle/*": true,
+    "**/*.map": true,
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/deploy/*": true,
+    "**/target/*": true,
+    "archive/**": true,
+    "dist/**": true,
+    "report/**": true,
+    ".idea/**": true,
+    "examples/**": true,
+    "test/**": true,
+    "**/*.bundle.*": true,
+    "**/reports/*": true,
+    "docs/report/**": true,
+    "coverage": true,
+    "lib": true,
+    "**/_build/**": true,
+    "**/_report/**": true,
+    "**/classes/**": true
+  },
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.colorTheme": "Default Light+",
+  "workbench.startupEditor": "newUntitledFile",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+  "extensions.ignoreRecommendations": false,
+  "gitlens.keymap": "alternate",
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": true,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": false
+  },
+  "editor.tabSize": 2,
+  "editor.rulers": [80, 120, 160],
+  "javascript.validate.enable": false,
+  "editor.renderControlCharacters": true,
+  "editor.lineNumbers": "off",
+  "editor.renderWhitespace": "all",
+  "editor.renderIndentGuides": true,
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.suggestSelection": "first",
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
+  "editor.wordWrap": "on",
+  "prettier.singleQuote": true,
 }
